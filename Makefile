@@ -1,5 +1,5 @@
 
-SUBDIRS = demo so
+SUBDIRS = bin so
 
 all: ${SUBDIRS}
 all: TARGET =
