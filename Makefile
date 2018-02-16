@@ -1,5 +1,5 @@
 
-SUBDIRS = bin so
+SUBDIRS = onchange
 
 all: ${SUBDIRS}
 all: TARGET =

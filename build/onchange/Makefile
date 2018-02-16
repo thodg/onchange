@@ -1,14 +1,14 @@
 
-PROGRAM = lib .so
+PROGRAM = onchange
 SRCDIR = ../..
 
 CPPFLAGS =
-CFLAGS = -O0 -ggdb -W -Wall -Werror -fpic
+CFLAGS = -O0 -ggdb -W -Wall -Werror
 
-LDFLAGS = -fPIC -shared
+LDFLAGS =
 LIBS =
-HEADERS =
-OBJECTS =
+HEADERS = onchange.h
+OBJECTS = onchange.o
 
 SRC = ${HEADERS} ${OBJECTS:%.o=%.c}
 

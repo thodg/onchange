@@ -1,14 +1,14 @@
 
-PROGRAM =
+PROGRAM = libonchange.so
 SRCDIR = ../..
 
 CPPFLAGS =
-CFLAGS = -O0 -ggdb -W -Wall -Werror
+CFLAGS = -O0 -ggdb -W -Wall -Werror -fpic
 
-LDFLAGS =
+LDFLAGS = -fPIC -shared
 LIBS =
 HEADERS =
-OBJECTS =
+OBJECTS = 
 
 SRC = ${HEADERS} ${OBJECTS:%.o=%.c}
 
